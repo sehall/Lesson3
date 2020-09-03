@@ -1,0 +1,150 @@
+/* Global sytles
+-----------------------------*/
+body {
+    max-width: 100%;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+/* Header sytles
+-----------------------------*/
+header {
+    background-color: #eeedd0;
+    padding-left: 10px;
+}
+
+header h1 {
+    padding-top: 10px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4em;
+}
+
+header h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header p {
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Featured sytles
+-----------------------------*/
+.featured {
+    background-color: #3B413C;
+    color: #F7FFF7;
+    padding-left: 10px;
+}
+
+.featured h2 {
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.title {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: auto;
+
+}
+
+
+.vicious-cycles {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.clear{
+    clear: left;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.featured a:link {
+    text-decoration: none;
+    background: cornsilk;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.featured a:visited {
+    text-decoration: none;
+    background: cornsilk;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.featured a:hover {
+    text-decoration: none;
+    background: rgba(255, 248, 220, 80%);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+/* Experience sytles
+-----------------------------*/
+.experience {
+    clear: both;
+    background-color: #349df3;
+    color: #F7FFF7;
+    padding-left: 10px;
+}
+
+.experience img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+/* Education sytles
+-----------------------------*/
+.education {
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.education img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+/* Footer sytles
+-----------------------------*/
+footer {
+    background-color: #D38B5D;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+footer h2 {
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+
+}
+
+footer a:link {
+    text-decoration: none;
+}
