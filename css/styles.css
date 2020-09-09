@@ -7,6 +7,13 @@ body {
     font-size: 1.2em;
 }
 
+.content-wrap {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0;
+}
+
 
 
 /* Header sytles
@@ -17,22 +24,7 @@ header {
 }
 
 header h1 {
-    padding-top: 10px;
-    margin-top: 0px;
-    text-align: center;
     font-size: 4em;
-}
-
-header h2{
-    text-align: center;
-    font-size: 2.5em;
-}
-
-header p {
-    max-width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
 }
 
 /* Featured sytles
@@ -40,12 +32,14 @@ header p {
 .featured {
     background-color: #3B413C;
     color: #F7FFF7;
-    padding-left: 10px;
 }
 
 .featured h2 {
     padding-top: 10px;
-    margin-top: 0px;
+}
+
+.featured p {
+    text-align: justify;
 }
 
 .title {
@@ -57,19 +51,17 @@ header p {
 
 }
 
-
 .vicious-cycles {
     float: left;
+    margin-top: 0em;
     padding-right: 10px;
     padding-bottom: 20px;
     width: 300px;
     height: auto;
 }
 
-.clear{
-    clear: left;
-    margin-bottom: 0;
-    padding-bottom: 20px;
+.git-hub {
+    padding: 60px 0;
 }
 
 .featured a:link {
@@ -99,7 +91,8 @@ header p {
     clear: both;
     background-color: #349df3;
     color: #F7FFF7;
-    padding-left: 10px;
+    margin-top: 0em;
+    padding: 10px 10px;
 }
 
 .experience img {
@@ -108,6 +101,10 @@ header p {
     margin-right: auto;
     width: 300px;
     height: auto;
+}
+
+.left-text {
+    text-align: left;
 }
 
 /* Education sytles
@@ -129,19 +126,21 @@ header p {
 -----------------------------*/
 footer {
     background-color: #D38B5D;
-    padding-left: 10px;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 10% 20px;
 }
 
 footer h2 {
+    float: left;
     padding-top: 10px;
     margin-top: 0px;
 }
 
-footer li {
+footer ul li {
+    display: inline-block;
     list-style-type: none;
-    display: inline;
-    padding-left: 20px;
+    margin-left: 40px;
 
 }
 
