@@ -1,17 +1,31 @@
 /* Global sytles
 -----------------------------*/
+
+@font-face {
+    font-family: "My Font";
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family: "H1 Font";
+    src: url(../fonts/CevicheOne-Regular.ttf);
+}
+
+
 body {
     max-width: 100%;
     margin: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.2em;
+    font-family: "My Font";
+    font-size: 1.3em;
 }
+
+
 
 .content-wrap {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 60px 0;
+    padding: 30px 0 60px 0;
 }
 
 
@@ -20,11 +34,17 @@ body {
 -----------------------------*/
 header {
     background-color: #eeedd0;
-    padding-left: 10px;
 }
 
 header h1 {
-    font-size: 4em;
+    font-family: "H1 Font";
+    text-shadow: 4px 4px grey;
+    font-size: 6em;
+    margin: 0;
+}
+
+header h2 {
+    text-decoration: underline solid black;
 }
 
 /* Featured sytles
@@ -32,10 +52,6 @@ header h1 {
 .featured {
     background-color: #3B413C;
     color: #F7FFF7;
-}
-
-.featured h2 {
-    padding-top: 10px;
 }
 
 .featured p {
@@ -61,24 +77,24 @@ header h1 {
 }
 
 .git-hub {
-    padding: 60px 0;
+    clear: both;
 }
 
-.featured a:link {
+.git-hub a:link {
     text-decoration: none;
     background: cornsilk;
     padding: 4px;
     border-radius: 4px;
 }
 
-.featured a:visited {
+.git-hub a:visited {
     text-decoration: none;
     background: cornsilk;
     padding: 4px;
     border-radius: 4px;
 }
 
-.featured a:hover {
+.git-hub a:hover {
     text-decoration: none;
     background: rgba(255, 248, 220, 80%);
     padding: 4px;
@@ -88,11 +104,13 @@ header h1 {
 /* Experience sytles
 -----------------------------*/
 .experience {
-    clear: both;
     background-color: #349df3;
     color: #F7FFF7;
-    margin-top: 0em;
-    padding: 10px 10px;
+    width: 50%;
+    height: 500px;
+    overflow: auto;
+    float: left;
+    padding-left: 10px;
 }
 
 .experience img {
@@ -107,17 +125,24 @@ header h1 {
     text-align: left;
 }
 
+.company {
+    text-decoration: underline solid black;
+}
+
 /* Education sytles
 -----------------------------*/
 .education {
+    width: auto;
+    height: 500px;
     background-color: #fff;
-    padding-left: 10px;
+    overflow: auto;
 }
 
 .education img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 56px;
     width: 300px;
     height: auto;
 }
@@ -125,6 +150,7 @@ header h1 {
 /* Footer sytles
 -----------------------------*/
 footer {
+    clear: both;
     background-color: #D38B5D;
     margin: 0 auto;
     text-align: left;
